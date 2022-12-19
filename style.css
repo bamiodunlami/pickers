@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+h2 {
+    font-size:30px;
+    font-weight: 600;
+}
+
+h3{
+    font-size:26px;
+    font-weight: 600;
+} 
+
+h4{
+    font-size:18px;
+    font-weight: 300;
+} 
+
+.row-one{
+border: 1px solid #d7d7d7;
+padding:20px;
+max-width: 1200px;
+margin: auto;
+}
+
+
+
+
+.dashboard{
+    height: 100vh;
+    padding: 5% 4%;
+    overflow-y: scroll;
+}
+
+.row-dashboard{
+    border: 1px solid #d7d7d7;
+    padding:20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+@media (max-width:480px)
+ {
+
+ /* login page */
+ h2 {
+    font-size:28px;
+    font-weight: 800;
+}
+
+.login-sec{
+    height: 100%;
+    padding: 50% 10%;
+}
+
+/* dashboard */
+h2.label-username {
+    font-size:18px;
+    font-weight: 800;
+}
+
+.row-dashboard{
+    padding:20px 5px;
+    margin: auto;
+}
+
+}
+
+
+
